@@ -49,6 +49,7 @@ main{
     margin-top: 10rem;
     flex-direction: column;
     gap: 2rem;
+    max-width: 80rem;
 }
 
 h1, .number{
