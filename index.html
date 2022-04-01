@@ -5,52 +5,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="./css/style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
   <title>Frontend Mentor | Profile card component</title>
-
-   
-  <style>
-    .attribution { font-size: 13px; text-align: center; margin-bottom: 3rem;}
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  <main class="container">
-    <img src="./images/bg-pattern-card.svg"
-    alt=""
-    style="border-radius: 1rem 1rem 0 0;">
-    
-    <div class="card" style="border-radius: 0 0 1rem 1rem;" >
-        <div class="perfil">
-            <img src="./images/image-victor.jpg"
-            alt="">
-        </div> <!-- close perfil-->
-
-        <header class="">
-            <h1 class="name">Victor Crest  <span class="age">26</span></h1>
+    <main>
+      <div class="card">
+        <img src="./images/bg-pattern-card.svg" alt="">
+        <img src="./images/image-victor.jpg" alt="">
+        <header>
+          <h1>Victor Crest <span class="age"> 26</span></h1>
+          <p>London</p>
         </header>
-        <p class="location">London</p>
         <hr>
         <ul class="infos">
-            <li>
-                <p class="number">80K</p>
-                <p class="text">Followers</p>
-            </li>
-            <li>
-                <p class="number">803K</p>
-                <p class="text">Likes</p>
-            </li>
-            <li>
-                <p class="number">1.4K</p>
-                <p class="text">Photos</p>
-            </li>
+          <li class="info">
+            <p class="number">80K</p>
+            <p class="text">Followers</p>
+          </li>
+          <li class="info">
+            <p class="number">803K</p>
+            <p class="text">Likes</p>
+          </li>
+          <li class="info">
+            <p class="number">1.4K</p>
+            <p class="text">Photos</p>
+          </li>
         </ul>
-    </div> <!-- close card -->
-
-    <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="https://www.linkedin.com/in/leonardo-fernandes-802a4322a/">Leo Fernandes</a>.
-    </div>
-  </main>
+      </div>
+      <footer>
+        <p>Challenge by 
+          <a href="https://www.frontendmentor.io/solutions/profilecardcomponent-with-css-and-html-rkLHZ_jGc" target="_blank" rel="noopener noreferrer">Frontend Mentor.</a></p>
+          <p>
+            Coded by
+             <a href="https://www.linkedin.com/in/leonardo-fernandes-802a4322a/" target="_blank" rel="noopener noreferrer">Leo Fernandes</a>
+          </p>
+      </footer>
+    </main>
+  
 </body>
 </html>

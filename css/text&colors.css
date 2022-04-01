@@ -1,0 +1,54 @@
+body{
+    background-color: var(--clr-cyan);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+main{
+    color: var(--clr-d-blue);
+}
+
+.card{
+    background-color: white;
+}
+
+span,
+header p,
+.text{
+    color: var(--clr-gray-1);
+}
+
+header{
+    font-size: .6rem;
+    line-height: 1.8;
+}
+
+header h1,
+.number{
+    font-weight: 700;
+}
+
+header span{
+    font-weight: 400;
+    margin-left: .5rem;
+}
+
+header p{
+    font-size: 1rem;
+}
+
+/*https://css-tricks.com/examples/hrs/*/
+hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.info .number{
+    font-size: 1.2rem;
+}
+
+.info .text{
+    font-size: .6rem;
+    letter-spacing: 2px;
+}
